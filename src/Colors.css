@@ -1,0 +1,29 @@
+
+/* ==== Gerenciamento do tema  com base em css root ==== */
+:root {
+    --primary: #D32F2F;
+    --redsecond: #f3532f;
+    --light-primary: #CFE8FF;
+    --dark-grey: #AAAAAA;
+    --danger: #D32F2F;
+	--light-danger: #FECDD3;
+    --warning: #FBC02D;
+    --light-warning: #FFF2C6;
+    --success: #f13910;
+    --light-success: #BBF7D0;
+    --white: #ffffff;
+
+    --light: #f6f6f9;
+    --grey: #eee;
+    --dark: #363949;
+    --primaria: #D32F2F;
+    --primariaToggle: #fff;
+    --secundariaToggle: #d71010;
+    --iconSelect: #D32F2F;
+    --select: #D32F2F;
+
+
+
+
+
+}

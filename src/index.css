@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bx{
+  font-size: 1.7rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body.dark{
+  --light: #181a1e;
+  --grey: #25252c;
+  --dark: #fbfbfb;
+  --primaria: #181a1e;
+  --primariaToggle: #fff;
+  --secundariaToggle: #363949;
+  --iconSelect: #fbfbfb;
+  --select: #fff;
+}
+
+body{
+  background: var(--grey);
+  overflow-x: hidden;
+}

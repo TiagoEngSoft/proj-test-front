@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34cd5c88.css",
+    "main.js": "/static/js/main.c4b441f9.js",
+    "static/media/eres-g.png": "/static/media/eres-g.679c302a6899b98c0a19.png",
+    "static/media/customer02.jpg": "/static/media/customer02.0fdabd61adfa88451208.jpg",
+    "index.html": "/index.html",
+    "main.34cd5c88.css.map": "/static/css/main.34cd5c88.css.map",
+    "main.c4b441f9.js.map": "/static/js/main.c4b441f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34cd5c88.css",
+    "static/js/main.c4b441f9.js"
+  ]
+}

@@ -1,0 +1,32 @@
+@import url('../../Colors.css');
+
+.divToggle {
+    margin-right: 5px;
+}
+
+.theme-toggle {
+     display: block;
+     min-width: 35px;
+     height: 25px;
+     position: relative;
+     border-radius: 25px;
+     margin-left: 5px;
+     color: var(--primaria);
+     background-color: var(--primariaToggle);
+ }
+
+ .theme-toggle::before {
+     content: "";
+     position: absolute;
+     top: 2px;
+     left: 2px;
+     bottom: 2px;
+     width: calc(25px - 4px);
+     background: var(--secundariaToggle);
+     border-radius: 50%;
+     transition: all 0.3s ease;
+ }
+
+ #theme-toggle:checked+.theme-toggle::before {
+     left: calc(100% - (25px - 4px) - 2px);
+ }
